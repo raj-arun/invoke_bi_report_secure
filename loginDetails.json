@@ -1,0 +1,5 @@
+{
+    "biuser":  "biusername",
+    "bipwd":  "biuserpwd",
+    "wsdl":  "https://<cloud url>.fa.us2.oraclecloud.com/xmlpserver/services/ExternalReportWSSService?wsdl",
+}

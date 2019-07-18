@@ -1,0 +1,19 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:pub="http://xmlns.oracle.com/oxp/service/PublicReportService">
+   <soap:Header/>
+   <soap:Body>
+      <pub:runReport>
+         <pub:reportRequest>
+			<pub:parameterNameValues>
+				<pub:item>
+					<pub:name>P_VERSION_NAME</pub:name>
+					<pub:values>
+						<pub:item>ACCOUNT_V1</pub:item>
+					</pub:values>
+				</pub:item>
+			</pub:parameterNameValues>		 
+            <pub:reportAbsolutePath>/Custom/Integrations/EPM/Financials/Report/EPM Account Hierarchy Report</pub:reportAbsolutePath>
+            <pub:sizeOfDataChunkDownload>-1</pub:sizeOfDataChunkDownload>
+         </pub:reportRequest>
+      </pub:runReport>
+   </soap:Body>
+</soap:Envelope>
